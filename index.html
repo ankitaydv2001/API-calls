@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>User Details</h1>
+    </header>
+    <main>
+        <section >
+            <label>User Accounts</label>
+            <button id= "b1" onclick="fetchUserDetails()">Get Details</button>
+           
+        </section>
+        <section >
+            <table id="userDetails">
+                <th>ID</th>
+                <th>Fullname</th>
+                <th>email</th>
+                
+            </table>
+            <div id="l"class="loader"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 user Details. All Rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
